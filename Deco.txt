@@ -1,0 +1,16 @@
+Deco.py
+
+This Python Module Demonstrates A Simple Decorator Named "run_on_zoj".
+
+The Decorator Executes The Decorated Function Only If The Current Minute Is Even.  
+If The Minute Is Odd, It Prints "hisss" Instead Of Running The Function.
+
+Two Example Functions Are Decorated:  
+- say_hello() Prints A Greeting  
+- say_bye() Prints A Farewell
+
+When Run, The Decorator Checks The Minute And Decides Whether To Execute The Function Or Not.
+
+This Is A Basic Example Of Using Decorators For Conditional Function Execution.
+
+Thank You.
