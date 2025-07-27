@@ -1,0 +1,23 @@
+DecoLog.txt
+
+This File Contains A Simple Python Decorator Named "log_decorator", Saved In The File "DecoLog.py".
+
+The Purpose Of This Decorator Is To Print The Name Of The Function Before It Runs.
+
+It Helps Track Which Function Is Being Executed, Which Can Be Useful For Debugging Or Understanding Code Behavior.
+
+Example:
+
+@log_decorator
+def add(a, b):
+    return a + b
+
+Calling This Function Will Print:
+
+Running Function: add
+
+Then It Returns The Result Normally.
+
+The Decorator Is Basic, But Shows How You Can Wrap And Extend Function Behavior In Python.
+
+Thank You. 
