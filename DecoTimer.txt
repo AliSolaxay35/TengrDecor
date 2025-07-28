@@ -1,0 +1,22 @@
+DecoTimer.txt
+
+This File Contains A Simple Python Decorator Named "timer", Saved In "DecoTimer.py".
+
+The Purpose Of This Decorator Is To Measure How Long A Function Takes To Run.
+
+It Records The Start Time, Runs The Function, Then Calculates And Prints The Execution Time In Seconds.
+
+Example:
+
+@timer
+def compute():
+    total = sum(range(10**6))
+    return total
+
+When You Call compute(), It Will Print Something Like:
+
+Execution Time: 0.0453 Seconds
+
+This Type Of Decorator Is Useful For Performance Testing And Optimization.
+
+Thank You.  
