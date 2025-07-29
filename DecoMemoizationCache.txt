@@ -1,0 +1,20 @@
+DecoMemoizationCache.txt
+
+This File Contains A Python Decorator Named "memoize", Saved In "DecoMemoizationCache.py".
+
+The Decorator Implements Memoization By Storing Previous Results In A Cache Dictionary.
+
+When The Decorated Function Is Called With The Same Argument Again,  
+The Cached Result Is Returned Without Recomputing.
+
+Example:
+
+@memoize
+def expensive_computation(x):
+    ...
+
+Calling The Function Twice With The Same Input Shows That The Second Call Uses Cached Value.
+
+Memoization Helps Optimize Expensive Or Recursive Computations.
+
+Thank You.  
