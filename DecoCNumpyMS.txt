@@ -1,0 +1,21 @@
+DecoCNumpyMS.txt
+
+This File Contains A Python Decorator Named "check_shape" Saved In "DecoCNumpyMS.py".
+
+The Decorator Checks If The Input Matrix Has The Expected Shape Before Running The Function.
+
+If The Matrix Shape Does Not Match The Expected Shape, It Raises A ValueError.
+
+This Helps Prevent Errors By Ensuring The Function Receives Correct Input.
+
+Example:
+
+@check_shape((2, 2))
+def determinant(mat):
+    ...
+
+When Called With A 2x2 Matrix, The Function Calculates Its Determinant.
+
+If The Input Matrix Shape Is Different, An Error Is Raised.
+
+Thank You. 
