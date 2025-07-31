@@ -1,0 +1,19 @@
+DecoNNumpyVO.txt
+
+This File Contains A Python Decorator Named "normalize_output", Saved In "DecoNNumpyVO.py".
+
+The Decorator Automatically Normalizes The Output Vector Of The Decorated Function Using L2 Norm.
+
+If The Output Vector Has Zero Length, It Returns The Original Vector To Avoid Division By Zero.
+
+This Is Useful In Machine Learning Or Vector Operations Where Normalized Output Is Needed.
+
+Example:
+
+@normalize_output
+def get_random_vector():
+    return np.random.rand(3)
+
+The Output Will Be A Unit Vector With The Same Direction As The Original Random Vector.
+
+Thank You.  
