@@ -1,0 +1,21 @@
+DecoOPNA.txt
+
+This File Contains A Decorator Named "positive_args_only", Saved In "DecoOPNA.py".
+
+The Decorator Checks That All Arguments Passed To The Function Are Positive Numbers.
+
+If Any Argument Is Negative, It Raises A ValueError.
+
+This Helps Ensure That The Function Only Works With Positive Values.
+
+Example:
+
+@positive_args_only
+def multiply(x, y):
+    return x * y
+
+Calling multiply(3, 5) Works Normally.
+
+Calling multiply(-1, 2) Will Raise A ValueError Saying "Negative Values Are Not Allowed".
+
+Thank You.  
