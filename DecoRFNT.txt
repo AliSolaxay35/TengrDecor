@@ -1,0 +1,17 @@
+DecoRFNT.txt
+
+This File Contains A Decorator Named "repeat", Saved In "DecoRFNT.py".
+
+The Decorator Accepts An Integer "n" And Repeats The Execution Of The Decorated Function "n" Times.
+
+It Can Be Used To Automatically Call A Function Multiple Times Without Writing Loops Outside.
+
+Example:
+
+@repeat(3)
+def greet(name):
+    print(f"Hello {name}")
+
+When Called As greet("Ali"), The Message Will Be Printed Three Times.
+
+Thank You.  
