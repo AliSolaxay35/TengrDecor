@@ -1,0 +1,19 @@
+DecoSoftmax.txt
+
+This File Contains A Decorator Named "softmax_output", Saved In "DecoSoftmax.py".
+
+The Decorator Applies The Softmax Function To The Output Of The Decorated Function.
+
+Softmax Converts A Vector Of Raw Scores (Logits) Into Probabilities That Sum To 1.
+
+This Is Commonly Used In Machine Learning For Classification Tasks.
+
+Example:
+
+@softmax_output
+def model_output():
+    return np.array([2.0, 1.0, 0.1])
+
+The Output Will Be A Probability Distribution Based On The Given Values.
+
+Thank You. 
