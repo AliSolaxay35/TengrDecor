@@ -1,0 +1,21 @@
+DecoMT.txt
+
+This File Contains A Simple Decorator Example, Saved In "DecoMT.py".
+
+The Decorator Prints A Message Before And After The Execution Of The Target Function.
+
+It Is Useful For Understanding The Basic Structure Of Decorators And How They Wrap Other Functions.
+
+Example:
+
+@decorator
+def say_hello():
+    print("Hello!")
+
+When Called, say_hello() Will Print:
+
+Before function call  
+Hello!  
+After function call
+
+Thank You.  
